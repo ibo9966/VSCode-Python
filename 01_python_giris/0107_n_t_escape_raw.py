@@ -1,0 +1,8 @@
+print("ecodation")
+print()
+print("eğitim")
+print()
+print("kurumları")
+print("adınız:")
+print("istanbul\nKadıköy\tİş\tMerkezi")
+print("btcturk\n\nakmerkez\t\tETH")

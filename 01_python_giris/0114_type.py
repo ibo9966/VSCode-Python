@@ -1,0 +1,6 @@
+print(2022)
+print(type(2022))
+print("gel")
+print(type("gel"))
+print(3.14)
+print(type(2022),type("gel"),type(3.14))
