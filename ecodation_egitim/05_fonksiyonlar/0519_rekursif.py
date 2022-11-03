@@ -15,6 +15,8 @@
 """
 
 
+
+
 def faktoriyel(n):
     if n == 0:
         return 1
@@ -24,3 +26,19 @@ def faktoriyel(n):
 
 print(faktoriyel(5))
 # endregion
+
+"""
+Örnek→(5**5)+(4**4)+(3**3)+(2**2)+(1**1)
+"""
+
+# def topla(n):
+#     if n<=1:
+#         return 1
+#     return pow(n,n) + topla(n-1)
+
+# result=topla(5)
+# print(result)
+
+
+print()
+

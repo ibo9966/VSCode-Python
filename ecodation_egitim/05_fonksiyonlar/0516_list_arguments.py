@@ -21,33 +21,41 @@ print(ortalama([3,5,7,10,11,12]))
 # endregion
 
 
-from cgi import print_arguments
-import time
-# import datetime
-from datetime import date, datetime
-cTime = time.time()  #epoch time
-# print(cTime)
-#print(datetime.now()) #bugünün tarihi 2022-05-08 11:46:36.894214
-#print(datetime.now().timestamp()) #epoch time
-#print(datetime.fromisoformat("1998-07-29").timestamp()) #epoch time
+# def ortalama(liste):
+#     tst = 0
+#     tsa = 0
+#     for i in liste:
+#         if i % 2 != 0:
+#             tst += i
+#             tsa += 1
+#     return (tsa, tst)
 
 
-def urunTarihKontrol(liste):
-    # print(type(liste))
-    for i in liste:
-        cTime = time.time()
-        pTime = datetime.fromisoformat(i).timestamp()
-        # print(i, " " , pTime, "  ", cTime)
-        # print((cTime-pTime)/86400)
-        if round((cTime-pTime)/86400)>60:
-            print(i)
+# print(ortalama([3, 8, 9, 7, 1, 3]))
 
+# import time
+# print(time.time())
+# from datetime import date,datetime
+# print(datetime.now())  
+# print(datetime.now().timestamp())
 
-urunTarihleri = [
-    "2022-03-06",
-    "2022-03-07",
-    "2022-03-08",
-    "2022-03-09",
-    "2022-03-10",
-]
-urunTarihKontrol(urunTarihleri)
+# import time
+# from datetime import datetime
+# def urunKontrol(liste):
+#     for i in liste:
+#         cTime=time.time()
+#         pTime=datetime.fromisoformat(i).timestamp()
+#         if (cTime-pTime)/86400>60:
+#             print(i)
+        
+# urunTarihleri=[
+#     "2022-08-25",
+#     "2022-09-26",
+#     "2022-09-27",
+#     "2022-09-28",
+#     "2022-09-30",
+#     "2022-07-30",
+
+# ]
+
+# urunKontrol(urunTarihleri)
