@@ -55,3 +55,4 @@ u2 = User("Burak", "Günal")
 # u1.SendMessage(u2, "Merhaba, Nasılsın?")
 u1.mesaj = "buradan daburadan da buradan da buradan da buradan daşşşşşşşşşşşçççç"
 u1.SendMessage(u1, u1.mesaj)
+
